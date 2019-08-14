@@ -9,11 +9,6 @@ public class Test0
 {
     public static void main(String[] args)
     {
-        int a = 0;
-        for (int i = 0; i < 99; i++)
-        {
-            a = a++;
-        }
-        System.out.println(a);
+        System.out.println(111^111^123);
     }
 }

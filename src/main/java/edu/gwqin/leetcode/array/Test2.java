@@ -14,7 +14,14 @@ public class Test2
 
     private static int maxProfit(int[] prices)
     {
-
-        return 0;
+        int max = 0;
+        for (int i = 0; i < prices.length; i++)
+        {
+            if (prices[i] < prices[i + 1])
+            {
+                max += (prices[i + 1] - prices[i]);
+            }
+        }
+        return max;
     }
 }
